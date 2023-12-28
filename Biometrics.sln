@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{E817F860-E4E0-4131-9A78-F0EEDC6EA0F8}"
+	ProjectSection(SolutionItems) = preProject
+		Components\Interop.WinBio.dll = Components\Interop.WinBio.dll
+		Components\PInvoker.Marshal.dll = Components\PInvoker.Marshal.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{D6310EE9-3920-4E41-A79C-BC4194587D47}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrostrata.Biometrics", "Cirrostrata.Biometrics\Cirrostrata.Biometrics.csproj", "{4199CC04-7C83-4AEE-B1E1-8D08F45C96DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrostrata.Biometrics.ConsoleTest", "Cirrostrata.Biometrics.ConsoleTest\Cirrostrata.Biometrics.ConsoleTest.csproj", "{5A5FA0A1-0178-4114-A7D1-F16CA74199A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrostrata.Biometrics.WPFTest", "Cirrostrata.Biometrics.WPFTest\Cirrostrata.Biometrics.WPFTest.csproj", "{81CC8837-7A01-42EF-85EF-D4E5F72B25A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4199CC04-7C83-4AEE-B1E1-8D08F45C96DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4199CC04-7C83-4AEE-B1E1-8D08F45C96DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4199CC04-7C83-4AEE-B1E1-8D08F45C96DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4199CC04-7C83-4AEE-B1E1-8D08F45C96DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5FA0A1-0178-4114-A7D1-F16CA74199A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5FA0A1-0178-4114-A7D1-F16CA74199A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5FA0A1-0178-4114-A7D1-F16CA74199A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5FA0A1-0178-4114-A7D1-F16CA74199A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CC8837-7A01-42EF-85EF-D4E5F72B25A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CC8837-7A01-42EF-85EF-D4E5F72B25A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CC8837-7A01-42EF-85EF-D4E5F72B25A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CC8837-7A01-42EF-85EF-D4E5F72B25A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
